@@ -29,12 +29,12 @@
                 <div class="card w-75 px-5 py-4">
                     <div class="row justify-content-around">
                         <div class="col-3">
-                            <h5>Nome e Cognome</h5>
-                            <input id="name" type="text" value="">
+                            <label for="name"><h5>Nome e Cognome</h5></label>
+                            <input id="name" type="text" value="" placeholder="Nome e Cognome">
                         </div>
                         <div class="col-3">
-                            <h5>Km da percorrere</h5>
-                            <input id="kilometres" type="number" value="">
+                            <label for="kilometres"><h5>Km da percorrere</h5></label>
+                            <input id="kilometres" type="number" value="" placeholder="Km">
                         </div>
                         <div class="col-3">
                             <label for="ageselect"><h5>Fascia d'età</h5></label>
@@ -56,11 +56,11 @@
 
             </section>
 
-            <section class="generated-ticket d-flex flex-column align-items-center">
+            <section class="generatedticket d-flex flex-column align-items-center">
 
                 <h2 class="text-center mb-3">IL TUO BIGLIETTO</h2>
 
-                <div class="card w-75 px-5 py-4">
+                <div class="card w-75 px-5 py-4 hide">
 
                     <h4>DETTAGLI PASSEGGERO</h4>
 
@@ -83,8 +83,8 @@
                             <tbody>
                                 <tr>
                                     <td id="outputAgeSelect"></td>
-                                    <td id=""></td>
-                                    <td id=""></td>
+                                    <td id="output1"></td>
+                                    <td id="output2"></td>
                                     <td id="outputFinalPrize"></td>
                                 </tr>
                             </tbody>
